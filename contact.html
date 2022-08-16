@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+        
+        <!-- Styling -->
+        <link rel="stylesheet" href="./assets/css/main.css">
+
+        <!-- Scripting -->
+        <script src="./assets/js/main.js" defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap" defer></script>
+
+        <title>Schouwen-Duiveland | Contact</title>
+            
+    </head>
+    <body class="grid-container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="./index.html" class="logo">
+                        <img src="./assets/img/logo_small.webp" alt="De vlag van Schouwen-Duiveland">
+                    </a>
+                </div>
+                <div class="navigation_container">
+                    <button class="hamburger" id="mobilemenu">&#x2630;</button>
+                    <div class="navigation_items" id="navigation_items">
+                        <a href="./index.html" class="underline">Home</a>
+                        <a href="./bezienswaardigheden.html" class="underline">Trekpleister</a>
+                        <div class="submenu">
+                            <a href="./plaatsen.html" class="underline">Plaatsen</a>
+                            <div class="subcontent">
+                                <a href="./plaatsen.html#bruinisse" class="underline d-block">Bruinisse</a>
+                                <a href="./plaatsen.html#zierikzee" class="underline d-block">Zierikzee</a>
+                                <a href="./plaatsen.html#renesse" class="underline d-block">Renesse</a>
+                            </div>
+                        </div>
+                        <a href="./schouwen-duiveland.html" class="underline">Het eiland</a>
+                        <a href="./contact.html" class="underline active">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <section id="map" class="banner">
+                    
+            </section>
+        </header>
+
+        <main>
+            <div class="content border-0">
+                <div class="content_container">
+                    <section>
+
+                        <h3 class="text-black">Contactformulier</h3>
+                        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" target="_blank" method="post" class="contact">
+                            <div>
+                                <label for="voornaam" class="d-block">Voornaam <span class="required">*</span></label>
+                                <input type="text" name="voornaam" id="voornaam" required>    
+                            </div>
+                            <div>
+                                <label for="achternaam" class="d-block">Achternaam <span class="required">*</span></label>
+                                <input type="text" name="achternaam" id="achternaam" required>    
+                            </div>
+                            <div>
+                                <label for="email" class="d-block">Email <span class="required">*</span></label>
+                                <input type="email" name="email" id="email" required>    
+                            </div>
+                            <div>
+                                <label for="phone" class="d-block">Telefoonnummer</label>
+                                <input type="phone" name="phone" id="phone">    
+                            </div>
+                            <div>
+                                <label for="bericht" class="d-block">Bericht <span class="required">*</span></label>
+                                <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea> 
+                            </div>
+                            <div>
+                                <input type="submit" value="Inzenden">
+                            </div>
+                        </form>
+
+                    </section>
+                    <section>
+                        <h3 class="text-black">Informatie</h3>
+                        
+                        <a href="tel:0612345678" class="d-block">Telefoon: +31 6 12345678</a>
+                        <a href="mailto:info@schouwenduiveland.nl" class="d-block">Email: info@schouwenduiveland.nl</a>
+
+                        <h3 class="text-black mt-3">Social media</h3>
+
+                        <div class="social-media">
+                            <img src="./assets/img/socials/twitter-square-brands.svg" alt="Twitter logo" height="32" width="32">
+                            <a href="https://twitter.com" target="_blank">Schouwen-Duiveland</a>
+                        </div>
+
+                        <div class="social-media">
+                            <img src="./assets/img/socials/facebook-square-brands.svg" alt="Facebook logo" height="32" width="32">
+                            <a href="https://facebook.com" target="_blank">Schouwen-Duiveland</a>
+                        </div>
+
+                        <div class="social-media">
+                            <img src="./assets/img/socials/instagram-square-brands.svg" alt="Instagram logo" height="32" width="32">
+                            <a href="https://instagram.com" target="_blank">Schouwen-Duiveland</a>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h5>Schouwen-Duiveland - <span class="break">Gerealiseerd door Ruben Dalebout</span></h5>
+        </footer>
+        </body>
+    </body>
+</html>
